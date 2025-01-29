@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.grid-element {
+    border-style: solid;
+    margin: 0;
+    border-width: 1px;
+    flex-grow: 1;
+}
+
+button {
+    background-color: white;
+}
